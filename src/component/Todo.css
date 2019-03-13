@@ -1,0 +1,41 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.2rem 0.5rem;
+}
+
+.item-container p {
+  margin:0;
+  font-size: 0.8rem;
+}
+
+
+.text-container {
+  width: 80%;
+  text-align: left;
+}
+
+.edit-input-container {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  margin: 1rem;
+}
+
+.form-container input {
+  margin: 1rem;
+}
